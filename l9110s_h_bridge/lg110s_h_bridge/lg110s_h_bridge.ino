@@ -38,13 +38,13 @@ void setup ()  {
  
 void loop ()  {
  digitalWrite( MOTOR_B_DIR, HIGH );
- analogWrite( MOTOR_B_PWM, 180 );
+ analogWrite( MOTOR_B_PWM, 0 );
  delay(4000);
  digitalWrite( MOTOR_B_DIR, LOW );
  analogWrite( MOTOR_B_PWM, 0 );
  delay(1000);
  digitalWrite( MOTOR_B_DIR, LOW );
- analogWrite( MOTOR_B_PWM, 60 );
+ analogWrite( MOTOR_B_PWM, 180 );
  delay(4000);
  digitalWrite( MOTOR_B_DIR, LOW );
  analogWrite( MOTOR_B_PWM, 0 );
